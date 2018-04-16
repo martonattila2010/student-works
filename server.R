@@ -13,6 +13,9 @@ shinyServer(function(input, output) {
         dbDisconnect(con)
 
         hist(df$datum[df$species == c(input$species)], c(input$breaks))
+        dist <- rnorm(input$obs)
+        hist(dist)
+
 
     })
 })
