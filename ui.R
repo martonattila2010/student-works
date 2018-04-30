@@ -21,3 +21,4 @@ mainPanel(
   plotOutput("distPlot")
 )
 ))
+#gyakorlasképpen koment
